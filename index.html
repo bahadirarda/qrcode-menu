@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>QR Code Menu</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" href="/style.css"/>
+
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class ="menu">
+            <div class="menu-content">
+                <div class="menu-head">
+                    <h2>Size Özel Menü</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet fermentum ultricies. Sed dignissim arcu augue, vel vulputate massa consequat eget. Donec ac convallis nisi, non condimentum magna. Aliquam tincidunt leo nec magna blandit imperdiet. Curabitur vel tincidunt est. Praesent molestie risus diam, sit amet accumsan arcu sollicitudin ut. Nam a tincidunt justo, nec cursus massa. Sed nibh orci, facilisis vitae semper nec, bibendum quis dui. Mauris rhoncus ante nec eros vulputate, id vulputate quam lacinia. Donec justo ligula, suscipit at libero vel, faucibus congue orci. Nulla augue purus, interdum sed enim in, semper accumsan ligula. In tincidunt dictum velit, efficitur volutpat massa sodales eu. In eu risus nisl. Aenean vehicula vehicula velit, euismod sagittis metus molestie nec. Aliquam erat volutpat. Cras porta metus sit amet faucibus dictum.</p>
+                </div>
+                <div class="menu-buttons">
+                    <button type="button" class="menu-btn active-btn" id="featured-btn">Öne Çıkanlar</button>
+                    <button type="button" class="menu-btn" id="special-btn">Şef'in Tavsiyesi</button>
+                    <button type="button" class="menu-btn" id="new-arrival">Yeni Katılanlar</button>
+                </div>
+                <div class="food-items">
+                    <!-- Item -->
+                    <div class="food-item featured">
+                        <div class="food-item-img">
+                            <img src="http://placehold.it/200x200" alt="food-item-img">
+                        </div>
+                        <div class="food-item-content">
+                            <h3 class="food-item-name">Banana Bread with Butter & Milk</h3>
+                            <div class="line"></div>
+                            <h3 class="food-price">₺49.90</h3>
+                            <ul class="rating">
+                                <li><i class = "fas fa-star"></i></li>
+                                <li><i class = "fas fa-star"></i></li>
+                                <li><i class = "fas fa-star"></i></li>
+                                <li><i class = "fas fa-star"></i></li>
+                                <li><i class = "far fa-star"></i></li>
+                            </ul>
+                            <p class="category">Kategoriler:
+                                <span> Öne Çıkanlar </span></p>
+                        </div>
+                    </div>
+                    <!-- End of Item -->
+                    <!-- Item -->
+                    <div class="food-item special">
+                        <div class="food-item-img">
+                            <img src="http://placehold.it/200x200" alt="food-item-img">
+                        </div>
+                        <div class="food-item-content">
+                            <h3 class="food-item-name">Barbekü Brioche</h3>
+                            <div class="line"></div>
+                            <h3 class="food-price">₺79.90</h3>
+                            <ul class="rating">
+                                <li><i class = "fas fa-star"></i></li>
+                                <li><i class = "fas fa-star"></i></li>
+                                <li><i class = "fas fa-star"></i></li>
+                                <li><i class = "fas fa-star"></i></li>
+                                <li><i class = "far fa-star"></i></li>
+                            </ul>
+                            <p class="category">Kategoriler:
+                                <span> Şef'in Tavsiyesi </span></p>
+                        </div>
+                    </div>
+                    <!-- End of Item -->
+                    <!-- Item -->
+                    <div class="food-item new-arrival">
+                        <div class="food-item-img">
+                            <img src="http://placehold.it/200x200" alt="food-item-img">
+                        </div>
+                        <div class="food-item-content">
+                            <h3 class="food-item-name">Tereyağında Kete</h3>
+                            <div class="line"></div>
+                            <h3 class="food-price">₺19.90</h3>
+                            <ul class="rating">
+                                <li><i class = "fas fa-star"></i></li>
+                                <li><i class = "fas fa-star"></i></li>
+                                <li><i class = "fas fa-star"></i></li>
+                                <li><i class = "fas fa-star"></i></li>
+                                <li><i class = "far fa-star"></i></li>
+                            </ul>
+                            <p class="category">Kategoriler:
+                                <span> Aramıza Yeni Katılanlar </span></p>
+                        </div>
+                    </div>
+                    <!-- End of Item -->
+                      <!-- Item -->
+                      <div class="food-item new-arrival">
+                        <div class="food-item-img">
+                            <img src="http://placehold.it/200x200" alt="food-item-img">
+                        </div>
+                        <div class="food-item-content">
+                            <h3 class="food-item-name">Gözleme</h3>
+                            <div class="line"></div>
+                            <h3 class="food-price">₺69.90</h3>
+                            <ul class="rating">
+                                <li><i class = "fas fa-star"></i></li>
+                                <li><i class = "fas fa-star"></i></li>
+                                <li><i class = "fas fa-star"></i></li>
+                                <li><i class = "fas fa-star"></i></li>
+                                <li><i class = "far fa-star"></i></li>
+                            </ul>
+                            <p class="category">Kategoriler:
+                                <span> Öne Çıkanlar </span></p>
+                        </div>
+                    </div>
+                    <!-- End of Item -->
+                    <!-- Item -->
+                    <div class="food-item new-arrival">
+                        <div class="food-item-img">
+                            <img src="http://placehold.it/200x200" alt="food-item-img">
+                        </div>
+                        <div class="food-item-content">
+                            <h3 class="food-item-name">Simit Tost</h3>
+                            <div class="line"></div>
+                            <h3 class="food-price">₺29.90</h3>
+                            <ul class="rating">
+                                <li><i class = "fas fa-star"></i></li>
+                                <li><i class = "fas fa-star"></i></li>
+                                <li><i class = "fas fa-star"></i></li>
+                                <li><i class = "fas fa-star"></i></li>
+                                <li><i class = "far fa-star"></i></li>
+                            </ul>
+                            <p class="category">Kategoriler:
+                                <span> Öne Çıkanlar </span></p>
+                        </div>
+                    </div>
+                    <!-- End of Item -->
+
+
+
+
+                    
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
